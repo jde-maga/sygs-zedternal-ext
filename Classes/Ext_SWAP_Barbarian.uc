@@ -22,12 +22,13 @@ static function ModifyDamageGiven(out int InDamage, int DefaultDamage, int upgLe
 
 static simulated function ModifyMeleeAttackSpeed(out float InDuration, float DefaultDuration, int upgLevel, KFWeapon KFW)
 {
-    InDuration = DefaultDuration * ((DefaultDuration / InDuration) + default.MeleeAttackSpeedStatic);
+    InDuration = DefaultDuration / ((DefaultDuration / InDuration) - default.MeleeAttackSpeedStatic);
 }
+
 defaultproperties
 {
     upgradeName="SWAP Barbarian"
-    upgradeDescription(0)="Increase <font color=\"#ff3399\">melee attack damage</font> by <font color=\"#ffcc00\">150%</font> (<font color=\"#66cc00\">+%x%%</font>).\nDecrease <font color=\"#ff3399\">damage dealt<font color=\"#ff3399\"> by <font color=\"#ff0000\">30%</font>."
+    upgradeDescription(0)="Increase <font color=\"#ff3399\">melee attack damage</font> by <font color=\"#ffcc00\">150%</font> (<font color=\"#66cc00\">+%x%%</font>).\nDecrease <font color=\"#ff3399\">attack speed<font color=\"#ff3399\"> by <font color=\"#ff0000\">30%</font>."
     WeaponBonus=(incValue=10,MaxValue=-1)
     Damage=0.10
     DamageStatic=1.500

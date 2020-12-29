@@ -16,13 +16,13 @@ static function bool IsUpgradeCompatible( class<KFWeapon> KFW )
 
 static simulated function ModifyRateOfFire( out float InRate, float DefaultRate, int upgLevel, KFWeapon KFW )
 {
-	InRate = DefaultRate / (DefaultRate/InRate - default.RateOfFire * upgLevel);
+		InRate = DefaultRate / (DefaultRate/InRate - default.RateOfFire * (upgLevel <= 5 ? upgLevel : 5));
 }
 
 defaultproperties
 {
 	upgradeName="Alpha Ammunition Consumption"
-	upgradeDescription(0)="Decrease <font color=\"#ff3399\">ammunition consumption rate</font> by <font color=\"#66cc00\">%x%%</font>."
-	WeaponBonus=(baseValue=0, incValue=15, maxValue=-1)
-	RateOfFire=0.150000
+	upgradeDescription(0)="Decrease <font color=\"#ff3399\">ammunition consumption rate</font> by <font color=\"#66cc00\">%x%%</font>.\n<font color=\"#ff0000\">No effects</font> past level 5."
+	WeaponBonus=(baseValue=0, incValue=10, maxValue=50)
+	RateOfFire=0.100000
 }
