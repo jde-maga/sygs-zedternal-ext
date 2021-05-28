@@ -24,7 +24,7 @@ static function ModifyDamageTaken( out int InDamage, int DefaultDamage, int upgL
 defaultproperties
 {
 	upgradeName="Damage Taken"
-	upgradeDescription(0)="Increase <font color=\"#ff3399\">damage resistance</font> by <font color=\"#66cc00\">%x%%</font> while holding this weapon."
-	WeaponBonus=(baseValue=0, incValue=3, maxValue=-1)
+	upgradeDescription(0)="Increase <font color=\"#ff3399\">damage resistance</font> by <font color=\"#66cc00\">%x%%</font> while holding this weapon.\n<font color=\"#ff0000\">No effects</font> past level 5."
+	WeaponBonus=(baseValue=0, incValue=3, maxValue=15)
 	Damage=0.030000
 }
