@@ -10,6 +10,8 @@ static function bool IsUpgradeCompatible( class<KFWeapon> KFW )
 		return false;
 	else if (class<KFWeap_AssaultRifle_LazerCutter>(KFW) != none)
 		return false;
+	else if (class<KFWeap_HRG_EMP_ArcGenerator>(KFW) != none)
+		return false;
 	else if (class<KFWeap_FlameBase>(KFW) != none)
 		return true;
 
