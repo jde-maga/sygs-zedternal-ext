@@ -7,6 +7,10 @@ var float PenetrationStatic;
 
 static function bool IsUpgradeCompatible(class<KFWeapon> KFW)
 {
+    if(class<KFWeap_Shotgun_HRG_Kaboomstick>(KFW) != none)
+    {
+        return false;
+    }
     if(class<KFWeap_ShotgunBase>(KFW) != none)
     {
         return true;
