@@ -74,8 +74,8 @@ defaultproperties
 	Critical(1)=0.75f
 
 	upgradeName="Tank"
-	upgradeDescription(0)="If you have more than <font color=\"#ffff00\">90% health</font>:\n> <font color=\"#66cc00\">+20%</font> <font color=\"#ff3399\">damage resistance</font>\n> <font color=\"#66cc00\">+30%</font> <font color=\"#ff3399\">damage resistance</font>"
-	upgradeDescription(1)="If you have more than <font color=\"#b346ea\">75% health</font>:\n> <font color=\"#b346ea\">+30%</font> <font color=\"#ff3399\">damage resistance</font>\n> <font color=\"#b346ea\">+30%</font> <font color=\"#ff3399\">damage resistance</font>"
+	upgradeDescription(0)="If you have more than <font color=\"#ffff00\">90% health</font>:\n> <font color=\"#66cc00\">+20%</font> <font color=\"#ff3399\">damage resistance</font>"
+	upgradeDescription(1)="If you have more than <font color=\"#b346ea\">75% health</font>:\n> <font color=\"#b346ea\">+30%</font> <font color=\"#ff3399\">damage resistance</font>"
 	upgradeIcon(0)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_Tank'
 	upgradeIcon(1)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_Tank_Deluxe'
 
