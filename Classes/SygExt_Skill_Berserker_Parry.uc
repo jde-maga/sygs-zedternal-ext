@@ -96,7 +96,7 @@ defaultproperties
 	Resistance(1)=1.0f
 
 	upgradeName="Parry"
-	upgradeDescription(0)="After a <font color=\"#ffff00\">successfull parry</font> with a melee weapon:\n> <font color=\"#66cc00\">+50%</font> <font color=\"#ff3399\">damage</font> for 4 seconds\n> <font color=\"#ff3399\">+50%</font> <font color=\"#b346ea\">damage resistance</font> for 4 seconds"
+	upgradeDescription(0)="After a <font color=\"#ffff00\">successfull parry</font> with a melee weapon:\n> <font color=\"#66cc00\">+50%</font> <font color=\"#ff3399\">damage</font> for 4 seconds\n> <font color=\"#66cc00\">+50%</font> <font color=\"#ff3399\">damage resistance</font> for 4 seconds"
 	upgradeDescription(1)="After a successfull parry with a melee weapon:\n> <font color=\"#b346ea\">+50%</font> <font color=\"#ff3399\">damage</font> for 4 seconds\n> <font color=\"#b346ea\">+100%</font> <font color=\"#ff3399\">damage resistance</font> for 4 seconds"
 	upgradeIcon(0)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_Parry'
 	upgradeIcon(1)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_Parry_Deluxe'
