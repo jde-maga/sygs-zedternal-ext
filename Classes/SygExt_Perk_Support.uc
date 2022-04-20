@@ -34,7 +34,7 @@ defaultproperties
     LargeZedDamage=0.10f
 
 	upgradeName="Support"
-    upgradeDescription(0)="> <font color=\"#66cc00\">+%x%%</font> <font color=\"#ff3399\">prenetration</font>"
+    upgradeDescription(0)="> <font color=\"#66cc00\">+%x%%</font> <font color=\"#ff3399\">penetration</font>"
     upgradeDescription(1)="> <font color=\"#66cc00\">+%x%%</font> <font color=\"#ff3399\">stumble and knockdown power</font>"
     upgradeDescription(2)="> <font color=\"#66cc00\">+%x%%</font> <font color=\"#ff3399\">large ZED damage</font>"
     upgradeDescription(3)="> <font color=\"#66cc00\">+%x%%</font> <font color=\"#ff3399\">Support weapons damage</font>"
