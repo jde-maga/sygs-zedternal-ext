@@ -45,4 +45,6 @@ defaultproperties
 	upgradeDescription(0)="Decrease <font color=\"#ff3399\">recoil</font> of this weapon by <font color=\"#66cc00\">%x%%</font>."
 	WeaponBonus=(baseValue=0, incValue=20, maxValue=95)
 	Recoil=0.200000
+
+	Name="Default__SygExt_WeapUpg_Recoil"
 }

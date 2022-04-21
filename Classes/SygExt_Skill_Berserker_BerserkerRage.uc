@@ -26,5 +26,5 @@ defaultproperties
 	upgradeIcon(0)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_BerserkerRage'
 	upgradeIcon(1)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_BerserkerRage_Deluxe'
 
-	Name="Default__WMUpgrade_Skill_BerserkerRage"
+	Name="Default__SygExt_Skill_Berserker_BerserkerRage"
 }

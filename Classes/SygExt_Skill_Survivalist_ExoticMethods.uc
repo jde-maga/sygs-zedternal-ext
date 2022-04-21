@@ -19,5 +19,5 @@ defaultproperties
 	upgradeIcon(0)=Texture2D'ZedternalReborn_Resource.Perks.UI_Perk_Survivalist_Rank_0'
 	upgradeIcon(1)=Texture2D'ZedternalReborn_Resource.Perks.UI_Perk_Survivalist_Rank_0'
 
-	Name="Default__WMUpgrade_Skill_Massacre"
+	Name="Default__SygExt_Skill_Survivalist_ExoticMethods"
 }

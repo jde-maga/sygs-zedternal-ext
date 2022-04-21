@@ -34,4 +34,6 @@ defaultproperties
 	upgradeDescription(0)="Increase <font color=\"#ff3399\">ground fire damage</font> dealt with this weapon by <font color=\"#66cc00\">%x%%</font>."
 	WeaponBonus=(baseValue=0, incValue=30, maxValue=-1)
 	Damage=0.300000
+
+	Name="Default__SygExt_WeapUpg_GroundFireDamage_Alpha"
 }

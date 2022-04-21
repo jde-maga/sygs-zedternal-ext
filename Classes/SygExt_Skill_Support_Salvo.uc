@@ -23,5 +23,5 @@ defaultproperties
 	upgradeIcon(0)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_Salvo'
 	upgradeIcon(1)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_Salvo_Deluxe'
 
-	Name="Default__WMUpgrade_Skill_Salvo"
+	Name="Default__SygExt_Skill_Support_Salvo"
 }

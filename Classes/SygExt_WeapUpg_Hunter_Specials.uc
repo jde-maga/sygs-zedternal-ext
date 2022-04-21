@@ -44,4 +44,6 @@ defaultproperties
     WeaponBonus=(incValue=20,MaxValue=-1)
     upgradeName="Hunter: Specials"
     upgradeDescription(0)="Increase <font color=\"#ff3399\">damage</font> of this weapon by <font color=\"#66cc00\">%x%%</font> against <font color=\"#ffff00\">all types of Sirens, Husks, EDARs and Bloats</font>."
+
+    Name="Default__SygExt_WeapUpg_Hunter_Specials"
 }

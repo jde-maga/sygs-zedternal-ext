@@ -18,5 +18,5 @@ defaultproperties
 	upgradeIcon(0)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_Pressure'
 	upgradeIcon(1)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_Pressure_Deluxe'
 
-	Name="Default__WMUpgrade_Skill_Pressure"
+	Name="Default__SygExt_Skill_SWAT_Pressure"
 }

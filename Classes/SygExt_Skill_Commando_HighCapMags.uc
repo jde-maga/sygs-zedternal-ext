@@ -18,5 +18,5 @@ defaultproperties
 	upgradeIcon(0)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_HighCapacityMags'
 	upgradeIcon(1)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_HighCapacityMags_Deluxe'
 
-	Name="Default__WMUpgrade_Skill_HighCapacityMags"
+	Name="Default__SygExt_Skill_Commando_HighCapMags"
 }

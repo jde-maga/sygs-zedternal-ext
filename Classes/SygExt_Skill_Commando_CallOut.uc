@@ -31,5 +31,5 @@ defaultproperties
 	upgradeIcon(0)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_CallOut'
 	upgradeIcon(1)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_CallOut_Deluxe'
 
-	Name="Default__WMUpgrade_Skill_CallOut"
+	Name="Default__SygExt_Skill_Commando_CallOut"
 }

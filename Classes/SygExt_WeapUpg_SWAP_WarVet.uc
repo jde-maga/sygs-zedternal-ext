@@ -47,4 +47,6 @@ defaultproperties
     WeaponBonus=(incValue=10,MaxValue=-1)
     upgradeName="SWAP War Vet"
     upgradeDescription(0)="Decrease <font color=\"#ff3399\">recoil</font> by <font color=\"#ffcc00\">50%</font> (<font color=\"#66cc00\">+%x%%</font>).\nIncrease <font color=\"#ff3399\">reload speed</font> by <font color=\"#ff0000\">25%</font>."
+
+    Name="Default__SygExt_WeapUpg_SWAP_WarVet"
 }

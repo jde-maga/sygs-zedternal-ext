@@ -75,5 +75,5 @@ defaultproperties
 
 	PSBuff=ParticleSystem'ZedternalReborn_Resource.Effects.FX_ColdRiposte_Effect'
 
-	Name="Default__WMUpgrade_Skill_ColdRiposte_Helper"
+	Name="Default__SygExt_Skill_Survivalist_ColdRiposte_Helper"
 }

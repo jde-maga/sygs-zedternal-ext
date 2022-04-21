@@ -45,5 +45,5 @@ defaultproperties
 	upgradeIcon(4)=Texture2D'ZedternalReborn_Resource.Perks.UI_Perk_Demolition_Rank_4'
 	upgradeIcon(5)=Texture2D'ZedternalReborn_Resource.Perks.UI_Perk_Demolition_Rank_5'
 
-	Name="Default__WMUpgrade_Perk_Demolitionist"
+	Name="Default__SygExt_Perk_Demolitionist"
 }

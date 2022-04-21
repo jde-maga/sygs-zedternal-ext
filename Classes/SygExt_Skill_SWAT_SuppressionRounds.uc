@@ -19,5 +19,5 @@ defaultproperties
 	upgradeIcon(0)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_SuppressionRounds'
 	upgradeIcon(1)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_SuppressionRounds_Deluxe'
 
-	Name="Default__WMUpgrade_Skill_SuppressionRounds"
+	Name="Default__SygExt_Skill_SWAT_SuppressionRounds"
 }

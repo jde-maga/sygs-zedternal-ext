@@ -29,5 +29,5 @@ defaultproperties
 	upgradeIcon(0)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_ConcussionRounds'
 	upgradeIcon(1)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_ConcussionRounds_Deluxe'
 
-	Name="Default__WMUpgrade_Skill_ConcussionRounds"
+	Name="Default__SygExt_Skill_Support_ConcussionRounds"
 }

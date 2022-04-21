@@ -36,4 +36,6 @@ defaultproperties
     WeaponBonus=(incValue=20,MaxValue=-1)
     upgradeName="SWAP Thumbtacks"
     upgradeDescription(0)="Increase <font color=\"#ff3399\">magazine size</font> by <font color=\"#ffcc00\">200%</font> (<font color=\"#66cc00\">+%x%%</font>).\nDecrease <font color=\"#ff3399\">penetration</font> by <font color=\"#ff0000\">500%</font>."
+
+    Name="Default__SygExt_WeapUpg_SWAP_Thumbtacks"
 }

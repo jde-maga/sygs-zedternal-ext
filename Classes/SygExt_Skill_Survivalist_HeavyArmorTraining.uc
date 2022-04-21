@@ -26,5 +26,5 @@ defaultproperties
 	upgradeIcon(0)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_TacticalArmor'
 	upgradeIcon(1)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_TacticalArmor_Deluxe'
 
-	Name="Default__WMUpgrade_Skill_TacticalArmor"
+	Name="Default__SygExt_Skill_Survivalist_HeavyArmorTraining"
 }

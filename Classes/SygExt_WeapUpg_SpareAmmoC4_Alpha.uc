@@ -23,4 +23,6 @@ defaultproperties
 	upgradeDescription(0)="Increase <font color=\"#ff3399\">max ammo</font> of this weapon by %x% rounds."
 	WeaponBonus=(baseValue=0, incValue=5, maxValue=-1)
 	SpareAmmo=5
+
+	Name="Default__SygExt_WeapUpg_SpareAmmoC4_Alpha"
 }

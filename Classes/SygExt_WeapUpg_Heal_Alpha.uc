@@ -33,4 +33,6 @@ defaultproperties
 	upgradeDescription(0)="Increase <font color=\"#ff3399\">healing potency</font> of this weapon by <font color=\"#66cc00\">%x%%</font>."
 	WeaponBonus=(baseValue=0, incValue=30, maxValue=-1)
 	Heal=0.300000
+
+	Name="Default__SygExt_WeapUpg_Heal_Alpha"
 }

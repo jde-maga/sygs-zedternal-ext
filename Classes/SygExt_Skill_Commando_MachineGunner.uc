@@ -61,5 +61,5 @@ defaultproperties
 	upgradeIcon(0)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_GunMachine'
 	upgradeIcon(1)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_GunMachine_Deluxe'
 
-	Name="Default__WMUpgrade_Skill_GunMachine"
+	Name="Default__SygExt_Skill_Commando_MachineGunner"
 }

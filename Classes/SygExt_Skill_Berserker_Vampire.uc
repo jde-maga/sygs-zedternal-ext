@@ -23,5 +23,5 @@ defaultproperties
 	upgradeIcon(0)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_Vampire'
 	upgradeIcon(1)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_Vampire_Deluxe'
 
-	Name="Default__WMUpgrade_Skill_Vampire"
+	Name="Default__SygExt_Skill_Berserker_Vampire"
 }

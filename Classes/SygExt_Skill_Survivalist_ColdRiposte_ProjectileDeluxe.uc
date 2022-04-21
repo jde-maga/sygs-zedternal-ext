@@ -20,5 +20,5 @@ defaultproperties
 		ActorClassToIgnoreForDamage=class'KFGame.KFPawn_Human'
 	End Object
 
-	Name="Default__WMProj_FreezeExplosion"
+	Name="Default__SygExt_Skill_Survivalist_ColdRiposte_ProjectileDeluxe"
 }

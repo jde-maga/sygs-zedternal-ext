@@ -15,5 +15,5 @@ defaultproperties
 	upgradeIcon(0)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_Bombardier'
 	EquipmentBonus(0)=(baseValue=0, incValue=1, maxValue=5)
 
-	Name="Default__WMUpgrade_Equipment_GrenadePouch"
+	Name="Default__SygExt_Equipment_GrenadePouch"
 }

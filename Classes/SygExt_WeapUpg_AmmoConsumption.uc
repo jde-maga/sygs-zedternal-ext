@@ -25,4 +25,6 @@ defaultproperties
 	upgradeDescription(0)="Decrease <font color=\"#ff3399\">ammunition consumption rate</font> by <font color=\"#66cc00\">%x%%</font>.\n<font color=\"#ff0000\">No effects</font> past level 10."
 	WeaponBonus=(baseValue=0, incValue=5, maxValue=50)
 	RateOfFire=0.050000
+
+	Name="Default__SygExt_WeapUpg_AmmoConsumption"
 }

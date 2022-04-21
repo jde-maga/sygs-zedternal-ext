@@ -10,5 +10,5 @@ defaultproperties
 
 	FreezePower=15000.0f
 
-	Name="Default__WMDT_FreezeExplosion"
+	Name="Default__SygExt_Skill_Survivalist_ColdRiposte_FreezeExplosion"
 }

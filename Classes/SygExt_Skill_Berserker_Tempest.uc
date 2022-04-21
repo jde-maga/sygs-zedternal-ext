@@ -26,5 +26,5 @@ defaultproperties
 	upgradeIcon(0)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_Tempest'
 	upgradeIcon(1)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_Tempest_Deluxe'
 
-	Name="Default__WMUpgrade_Skill_Tempest"
+	Name="Default__SygExt_Skill_Berserker_Tempest"
 }

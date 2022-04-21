@@ -36,4 +36,6 @@ defaultproperties
     WeaponBonus=(incValue=20,MaxValue=-1)
     upgradeName="Hunter: Omega"
     upgradeDescription(0)="Increase <font color=\"#ff3399\">damage</font> of this weapon by <font color=\"#66cc00\">%x%%</font> against <font color=\"#ffff00\">all types of Omega zeds</font>."
+
+    Name="Default__SygExt_WeapUpg_Hunter_Omega"
 }

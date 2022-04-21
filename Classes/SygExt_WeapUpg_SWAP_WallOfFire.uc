@@ -34,4 +34,6 @@ defaultproperties
     WeaponBonus=(incValue=25,MaxValue=-1)
     upgradeName="SWAP Wall of Fire"
     upgradeDescription(0)="Increase <font color=\"#ff3399\">magazine size</font> by <font color=\"#ffcc00\">150%</font> (<font color=\"#66cc00\">+%x%%</font>).\nDecrease <font color=\"#ff3399\">damage dealt</font> by <font color=\"#ff0000\">30%</font>."
+
+    Name="Default__SygExt_WeapUpg_SWAP_WallOfFire"
 }

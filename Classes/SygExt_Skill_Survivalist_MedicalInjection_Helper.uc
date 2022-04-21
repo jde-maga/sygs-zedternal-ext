@@ -54,5 +54,5 @@ defaultproperties
 	MinRegenDelay(0)=0.33f
 	MinRegenDelay(1)=0.125f
 
-	Name="Default__WMUpgrade_Skill_MedicalInjection_Helper"
+	Name="Default__SygExt_Skill_Survivalist_MedicalInjection_Helper"
 }

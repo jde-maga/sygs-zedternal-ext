@@ -23,4 +23,6 @@ defaultproperties
 	upgradeDescription(0)="Increase <font color=\"#ff3399\">penetration power</font> of this weapon by <font color=\"#66cc00\">%x%%</font>."
 	WeaponBonus=(baseValue=0, incValue=75, maxValue=-1)
 	Penetration=0.750000
+
+	Name="Default__SygExt_WeapUpg_Penetration_Alpha"
 }

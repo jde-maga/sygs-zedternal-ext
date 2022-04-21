@@ -125,4 +125,6 @@ defaultproperties
     StunPower=0.030000
     Speed=0.030000
     Spread=0.030000
+
+	Name="Default__SygExt_WeapUpg_Illimitable"
 }

@@ -31,4 +31,6 @@ defaultproperties
 	upgradeDescription(0)="Increase <font color=\"#ff3399\">attack speed</font> by <font color=\"#66cc00\">%x%%</font> with this weapon."
 	WeaponBonus=(baseValue=0, incValue=10, maxValue=-1)
 	MeleeAttackSpeed=0.100000
+
+	Name="Default__SygExt_WeapUpg_MeleeAttackSpeed"
 }

@@ -40,4 +40,6 @@ defaultproperties
 	upgradeDescription(0)="Increase <font color=\"#ff3399\">rate of fire</font> of this weapon by <font color=\"#66cc00\">%x%%</font>."
 	WeaponBonus=(baseValue=0, incValue=10, maxValue=-1)
 	RateOfFire=0.100000
+
+	Name="Default__SygExt_WeapUpg_RateOfFire"
 }

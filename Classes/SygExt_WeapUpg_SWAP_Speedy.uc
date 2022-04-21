@@ -45,4 +45,6 @@ defaultproperties
     WeaponBonus=(incValue=10,MaxValue=-1)
     upgradeName="SWAP Speedy"
     upgradeDescription(0)="Increase <font color=\"#ff3399\">reload speed</font> by <font color=\"#ffcc00\">100%</font> (<font color=\"#66cc00\">+%x%%</font>).\nDecrease <font color=\"#ff3399\">magazine size</font> by <font color=\"#ff0000\">50%</font>."
+
+    Name="Default__SygExt_WeapUpg_SWAP_Speedy"
 }

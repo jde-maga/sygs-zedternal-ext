@@ -42,4 +42,6 @@ defaultproperties
     Damage=0.10
     DamageStatic=1.500
     MeleeAttackSpeedStatic=0.30
+
+    Name="Default__SygExt_WeapUpg_SWAP_Barbarian"
 }

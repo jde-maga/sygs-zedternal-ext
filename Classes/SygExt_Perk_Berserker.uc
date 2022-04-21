@@ -45,5 +45,5 @@ defaultproperties
 	upgradeIcon(4)=Texture2D'ZedternalReborn_Resource.Perks.UI_Perk_Berserker_Rank_4'
 	upgradeIcon(5)=Texture2D'ZedternalReborn_Resource.Perks.UI_Perk_Berserker_Rank_5'
 
-	Name="Default__WMUpgrade_Perk_Berserker"
+	Name="Default__SygExt_Perk_Berserker"
 }

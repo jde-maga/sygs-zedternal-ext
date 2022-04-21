@@ -52,5 +52,5 @@ defaultproperties
 	upgradeIcon(0)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_ColdRiposte'
 	upgradeIcon(1)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_ColdRiposte_Deluxe'
 
-	Name="Default__WMUpgrade_Skill_ColdRiposte"
+	Name="Default__SygExt_Skill_Survivalist_ColdRiposte"
 }

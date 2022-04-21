@@ -49,5 +49,5 @@ defaultproperties
 	upgradeIcon(4)=Texture2D'ZedternalReborn_Resource.Perks.UI_Perk_Support_Rank_4'
 	upgradeIcon(5)=Texture2D'ZedternalReborn_Resource.Perks.UI_Perk_Support_Rank_5'
 
-	Name="Default__WMUpgrade_Perk_Support"
+	Name="Default__SygExt_Perk_Support"
 }

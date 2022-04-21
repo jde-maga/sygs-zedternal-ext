@@ -37,4 +37,6 @@ defaultproperties
     Damage=0.10
     DamageStatic=1.250
     ReloadRateStatic=0.50
+
+    Name="Default__SygExt_WeapUpg_SWAP_HeavyShells"
 }

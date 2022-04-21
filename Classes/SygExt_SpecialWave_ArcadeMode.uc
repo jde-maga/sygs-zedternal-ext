@@ -30,5 +30,5 @@ defaultproperties
 	Title="Arcade Mode"
 	Description="Refill armor, ammunitions and grenades each wave !"
 
-	Name="Default__WMSpecialWave_ArcadeMode"
+	Name="Default__SygExt_SpecialWave_ArcadeMode"
 }

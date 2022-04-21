@@ -42,4 +42,6 @@ defaultproperties
     WeaponBonus=(incValue=30,MaxValue=-1)
     upgradeName="SWAP Pacifist"
     upgradeDescription(0)="Increase <font color=\"#ff3399\">healing rate</font> by <font color=\"#ffcc00\">250%</font> (<font color=\"#66cc00\">+%x%%</font>).\nDecrease <font color=\"#ff3399\">damage dealt</font> by <font color=\"#ff0000\">50%</font>."
+
+    Name="Default__SygExt_WeapUpg_SWAP_Pacifist"
 }

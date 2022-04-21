@@ -101,5 +101,5 @@ defaultproperties
 	upgradeIcon(0)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_Parry'
 	upgradeIcon(1)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_Parry_Deluxe'
 
-	Name="Default__WMUpgrade_Skill_Parry"
+	Name="Default__SygExt_Skill_Berserker_Parry"
 }

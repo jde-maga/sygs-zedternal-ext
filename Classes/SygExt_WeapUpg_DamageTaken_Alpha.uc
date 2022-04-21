@@ -34,4 +34,6 @@ defaultproperties
 	upgradeDescription(0)="Increase <font color=\"#ff3399\">damage resistance</font> by <font color=\"#66cc00\">%x%%</font> while holding this weapon.\n<font color=\"#ff0000\">No effects</font> past level 5."
 	WeaponBonus=(baseValue=0, incValue=5, maxValue=25)
 	Damage=0.050000
+
+	Name="Default__SygExt_WeapUpg_DamageTaken_Alpha"
 }

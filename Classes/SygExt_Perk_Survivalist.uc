@@ -45,5 +45,5 @@ defaultproperties
 	upgradeIcon(4)=Texture2D'ZedternalReborn_Resource.Perks.UI_Perk_Survivalist_Rank_4'
 	upgradeIcon(5)=Texture2D'ZedternalReborn_Resource.Perks.UI_Perk_Survivalist_Rank_5'
 
-	Name="Default__WMUpgrade_Perk_Survivalist"
+	Name="Default__SygExt_Perk_Survivalist"
 }

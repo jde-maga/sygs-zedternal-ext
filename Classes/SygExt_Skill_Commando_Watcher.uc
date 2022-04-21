@@ -26,5 +26,5 @@ defaultproperties
 	upgradeIcon(0)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_Watcher'
 	upgradeIcon(1)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_Watcher_Deluxe'
 
-	Name="Default__WMUpgrade_Skill_Watcher"
+	Name="Default__SygExt_Skill_Commando_Watcher"
 }

@@ -13,5 +13,5 @@ defaultproperties
 	upgradeDescription(0)="Instantly weld and unweld doors !"
 	upgradeIcon(0)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_DoorTraps'
 
-	Name="Default__WMUpgrade_Equipment_SuperWelder"
+	Name="Default__SygExt_Equipment_SuperWelder"
 }

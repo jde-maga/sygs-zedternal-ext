@@ -22,5 +22,5 @@ defaultproperties
 	upgradeIcon(0)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_Tactician'
 	upgradeIcon(1)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_Tactician_Deluxe'
 
-	Name="Default__WMUpgrade_Skill_Tactician"
+	Name="Default__SygExt_Skill_Commando_Tactician"
 }

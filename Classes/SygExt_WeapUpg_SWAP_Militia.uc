@@ -48,4 +48,6 @@ defaultproperties
     WeaponBonus=(incValue=10,MaxValue=-1)
     upgradeName="SWAP Militia"
     upgradeDescription(0)="Increase <font color=\"#ff3399\">rate of fire</font> by <font color=\"#ffcc00\">100%</font> (<font color=\"#66cc00\">+%x%%</font>).\nIncrease <font color=\"#ff3399\">recoil</font> by <font color=\"#ff0000\">50%</font>."
+
+    Name="Default__SygExt_WeapUpg_SWAP_Militia"
 }

@@ -51,5 +51,5 @@ defaultproperties
 	Update=0.25f
 	Radius=1000000
 
-	Name="Default__WMUpgrade_Skill_Destruction_Helper"
+	Name="Default__SygExt_Skill_Support_Destruction_Helper"
 }

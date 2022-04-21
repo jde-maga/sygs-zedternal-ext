@@ -24,4 +24,6 @@ defaultproperties
 	upgradeDescription(0)="Carry up to <font color=\"#66cc00\">%x%%</font> <font color=\"#ff3399\">more ammo</font> for this weapon."
 	WeaponBonus=(baseValue=0, incValue=10, maxValue=-1)
 	SpareAmmo=0.100000
+
+	Name="Default__SygExt_WeapUpg_SpareAmmo"
 }

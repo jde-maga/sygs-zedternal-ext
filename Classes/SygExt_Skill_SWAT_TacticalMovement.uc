@@ -25,5 +25,5 @@ defaultproperties
 	upgradeIcon(0)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_TacticalMovement'
 	upgradeIcon(1)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_TacticalMovement_Deluxe'
 
-	Name="Default__WMUpgrade_Skill_TacticalMovement"
+	Name="Default__SygExt_Skill_SWAT_TacticalMovement"
 }

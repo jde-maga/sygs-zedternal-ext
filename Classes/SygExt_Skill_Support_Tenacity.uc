@@ -68,5 +68,5 @@ defaultproperties
 	upgradeIcon(0)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_Tenacity'
 	upgradeIcon(1)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_Tenacity_Deluxe'
 
-	Name="Default__WMUpgrade_Skill_Tenacity"
+	Name="Default__SygExt_Skill_Support_Tenacity"
 }

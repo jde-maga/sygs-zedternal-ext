@@ -23,4 +23,6 @@ defaultproperties
 	upgradeDescription(0)="Increase <font color=\"#ff3399\">magazine capacity</font> of this weapon by <font color=\"#66cc00\">%x%</font> round(s)."
 	WeaponBonus=(baseValue=0, incValue=2, maxValue=-1)
 	MagSize=2
+
+	Name="Default__SygExt_WeapUpg_MagSizeSmall_Alpha"
 }

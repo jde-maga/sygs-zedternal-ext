@@ -43,5 +43,5 @@ defaultproperties
 	upgradeIcon(0)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_Cripple'
 	upgradeIcon(1)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_Cripple_Deluxe'
 
-	Name="Default__WMUpgrade_Skill_Destruction"
+	Name="Default__SygExt_Skill_Support_Destruction"
 }
