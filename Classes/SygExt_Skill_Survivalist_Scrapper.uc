@@ -10,7 +10,6 @@ static simulated function InitiateWeapon(int upgLevel, KFWeapon KFW, KFPawn Owne
 		bFound = False;
 		foreach OwnerPawn.ChildActors(class'SygExt_Skill_Survivalist_Scrapper_Helper', UPG)
 		{
-            UPG.upgLevel = upgLevel;
 			bFound = True;
 			break;
 		}
@@ -28,14 +27,14 @@ static function WaveEnd(int upgLevel, KFPlayerController KFPC)
     local SygExt_Skill_Survivalist_Scrapper_Helper UPG;
 
     if (KFPC != None && KFPC.Pawn != None) {
-        UPG = GetHelper(KFPC.Pawn);
+        UPG = GetHelper(KFPC.Pawn, upgLevel);
         if (UPG != None) {
             UPG.ResetZedCounter();
         }
     }
 }
 
-static function SygExt_Skill_Survivalist_Scrapper_Helper GetHelper(Pawn OwnerPawn)
+static function SygExt_Skill_Survivalist_Scrapper_Helper GetHelper(Pawn OwnerPawn, int upgLevel)
 {
 	local SygExt_Skill_Survivalist_Scrapper_Helper UPG;
 
@@ -46,6 +45,7 @@ static function SygExt_Skill_Survivalist_Scrapper_Helper GetHelper(Pawn OwnerPaw
 	}
     //Should have one
 	UPG = OwnerPawn.Spawn(class'SygExt_Skill_Survivalist_Scrapper_Helper', OwnerPawn);
+	UPG.upgLevel = upgLevel;
 
 	return UPG;
 }
@@ -55,7 +55,7 @@ static function AddVampireHealth(out int InHealth, int DefaultHealth, int upgLev
     local SygExt_Skill_Survivalist_Scrapper_Helper UPG;
 
     if (KFPC != None && KFPC.Pawn != None) {
-        UPG = GetHelper(KFPC.Pawn);
+        UPG = GetHelper(KFPC.Pawn, upgLevel);
         if (UPG != None) {
             UPG.IncreaseCounter();
         }

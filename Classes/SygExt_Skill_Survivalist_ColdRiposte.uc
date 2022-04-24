@@ -1,14 +1,24 @@
 class SygExt_Skill_Survivalist_ColdRiposte extends WMUpgrade_Skill;
 
-static function ModifyDamageTaken(out int InDamage, int DefaultDamage, int upgLevel, KFPawn OwnerPawn, optional class<DamageType> DamageType, optional Controller InstigatedBy, optional KFWeapon MyKFW)
+static simulated function InitiateWeapon(int upgLevel, KFWeapon KFW, KFPawn OwnerPawn)
 {
 	local SygExt_Skill_Survivalist_ColdRiposte_Helper UPG;
+	local bool bFound;
 
-	if (InDamage > 0)
+	if (KFPawn_Human(OwnerPawn) != None && OwnerPawn.Role == Role_Authority)
 	{
-		UPG = GetHelper(OwnerPawn, upgLevel);
-		if (UPG != None && UPG.bReady)
-			UPG.Explosion();
+		bFound = False;
+		foreach OwnerPawn.ChildActors(class'SygExt_Skill_Survivalist_ColdRiposte_Helper', UPG)
+		{
+			bFound = True;
+			break;
+		}
+
+		if (!bFound)
+		{
+			UPG = OwnerPawn.Spawn(class'SygExt_Skill_Survivalist_ColdRiposte_Helper', OwnerPawn);
+            UPG.bDeluxe = (upgLevel > 1);
+		}
 	}
 }
 
@@ -41,6 +51,18 @@ static simulated function DeleteHelperClass(Pawn OwnerPawn)
 		{
 			UPG.Destroy();
 		}
+	}
+}
+
+static function ModifyDamageTaken(out int InDamage, int DefaultDamage, int upgLevel, KFPawn OwnerPawn, optional class<DamageType> DamageType, optional Controller InstigatedBy, optional KFWeapon MyKFW)
+{
+	local SygExt_Skill_Survivalist_ColdRiposte_Helper UPG;
+
+	if (InDamage > 0)
+	{
+		UPG = GetHelper(OwnerPawn, upgLevel);
+		if (UPG != None && UPG.bReady)
+			UPG.Explosion();
 	}
 }
 
