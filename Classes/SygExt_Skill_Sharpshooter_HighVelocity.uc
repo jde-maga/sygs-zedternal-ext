@@ -19,8 +19,8 @@ defaultproperties
 	Damage(1)=0.10f
 
 	upgradeName="High Velocity"
-    upgradeDescription(0)="For every <font color=\"#ffff00\">meter between a ZED</font>:\n> <font color=\"#66cc00\">+5%</font> <font color=\"#ff3399\">damage</font>"
-    upgradeDescription(1)="For every <font color=\"#ffff00\">meter between a ZED</font>:\n> <font color=\"#b346ea\">+10%</font> <font color=\"#ff3399\">damage</font>"
+    upgradeDescription(0)="For every <font color=\"#ffff00\">meter your shot travels</font>:\n> <font color=\"#66cc00\">+5%</font> <font color=\"#ff3399\">damage</font>"
+    upgradeDescription(1)="For every <font color=\"#ffff00\">meter your shot travels</font>:\n> <font color=\"#b346ea\">+10%</font> <font color=\"#ff3399\">damage</font>"
 	upgradeIcon(0)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_Velocity'
 	upgradeIcon(1)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_Velocity_Deluxe'
 
