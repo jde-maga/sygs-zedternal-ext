@@ -4,7 +4,7 @@ var array<float> Damage, Recoil;
 
 static function ModifyDamageGiven(out int InDamage, int DefaultDamage, int upgLevel, optional Actor DamageCauser, optional KFPawn_Monster MyKFPM, optional KFPlayerController DamageInstigator, optional class<KFDamageType> DamageType, optional int HitZoneIdx, optional KFWeapon MyKFW)
 {
-	if (MyKFW.bUsingSights)
+	if (MyKFW != None && MyKFW.bUsingSights)
 		InDamage += Round(float(DefaultDamage) * default.Damage[upgLevel - 1]);
 }
 

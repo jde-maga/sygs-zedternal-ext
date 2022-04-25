@@ -50,13 +50,15 @@ static function ModifyDamageGiven(out int InDamage, int DefaultDamage, int upgLe
     local SygExt_Skill_Sharpshooter_CurtainCall_Helper UPG;
     UPG = GetHelper(DamageInstigator.Pawn);
 
-	if (MyKFPM != None && !MyKFPM.bLargeZed && MyKFPM.IsAliveAndWell() && (MyKFPM.Health - InDamage) <= 0)
-        UPG.IncreaseCounter();
-    else if (MyKFPM != None && MyKFPM.bLargeZed && MyKFPM.IsAliveAndWell()) {
-        InDamage += Round(float(DefaultDamage) * (float(UPG.GetStacks()) * default.Damage[upgLevel - 1]));
-        if ((MyKFPM.Health - InDamage) <= 0)
-            UPG.ResetCounter();
-    }
+	if (UPG != None) {
+		if (MyKFPM != None && !MyKFPM.bLargeZed && MyKFPM.IsAliveAndWell() && (MyKFPM.Health - InDamage) <= 0)
+			UPG.IncreaseCounter();
+		else if (MyKFPM != None && MyKFPM.bLargeZed && MyKFPM.IsAliveAndWell()) {
+			InDamage += Round(float(DefaultDamage) * (float(UPG.GetStacks()) * default.Damage[upgLevel - 1]));
+			if ((MyKFPM.Health - InDamage) <= 0)
+				UPG.ResetCounter();
+		}
+	}
 }
 
 defaultproperties
