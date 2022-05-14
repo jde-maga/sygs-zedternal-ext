@@ -6,10 +6,12 @@ static simulated function ModifySpeed(out float InSpeed, float DefaultSpeed, int
 {
 	local float HalfHealth; 
 
-	HalfHealth = OwnerPawn.HealthMax / 2;
-	if(OwnerPawn.HealthMax < HalfHealth)
-	{
-		InSpeed += DefaultSpeed * default.MaxSpeed[upgLevel - 1] * (HalfHealth - OwnerPawn.Health) * ( 1 / HalfHealth);
+	if (OwnerPawn != None) {
+		HalfHealth = OwnerPawn.HealthMax / 2;
+		if(OwnerPawn.HealthMax < HalfHealth)
+		{
+			InSpeed += DefaultSpeed * default.MaxSpeed[upgLevel - 1] * (HalfHealth - OwnerPawn.Health) * ( 1 / HalfHealth);
+		}
 	}
 }
 

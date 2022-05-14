@@ -1,6 +1,7 @@
 class Sygext_Skill_Commando_Guerilla extends WMUpgrade_Skill;
 
-var array<float> DamageBonus, HealthBonus;
+var array<float> DamageBonus;
+var array<int> HealthBonus;
 
 static function ModifyDamageGivenPassive(out float damageFactor, int upgLevel)
 {
@@ -9,15 +10,15 @@ static function ModifyDamageGivenPassive(out float damageFactor, int upgLevel)
 
 static function ModifyHealth(out int InHealth, int DefaultHealth, int upgLevel)
 {
-    InHealth += default.HealthBonus[upgLevel -1];
+    InHealth += default.HealthBonus[upgLevel - 1];
 }
 
 defaultproperties
 {
     DamageBonus(0)=0.20f;
     DamageBonus(1)=0.40f;
-    HealthBonus(0)=0.10f;
-    HealthBonus(1)=0.25f;
+    HealthBonus(0)=10;
+    HealthBonus(1)=25;
 
 	upgradeName="Guerilla"
     upgradeDescription(0)="> <font color=\"#66cc00\">+20%</font> <font color=\"#ff3399\">damage</font>\n> <font color=\"#66cc00\">+10</font> <font color=\"#ff3399\">health points</font>"

@@ -48,8 +48,8 @@ defaultproperties
 	Health(1)=0.25f
 
 	upgradeName="Fortitude"
-    upgradeDescription(0)="> <font color=\"#66cc00\">+10%</font> <font color=\"#ff3399\">health points</font>\n> <font color=\"#66cc00\">+0.5</font> <font color=\"#ff3399\">health points per second</font>"
-    upgradeDescription(1)="> <font color=\"#b346ea\">+25%</font> <font color=\"#ff3399\">health points</font>\n> <font color=\"#b346ea\">+1</font> <font color=\"#ff3399\">health point per second</font>"
+    upgradeDescription(0)="> <font color=\"#66cc00\">+10</font> <font color=\"#ff3399\">health points</font>\n> <font color=\"#66cc00\">+0.5</font> <font color=\"#ff3399\">health points per second</font>"
+    upgradeDescription(1)="> <font color=\"#b346ea\">+25</font> <font color=\"#ff3399\">health points</font>\n> <font color=\"#b346ea\">+1</font> <font color=\"#ff3399\">health point per second</font>"
 	upgradeIcon(0)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_Fortitude'
 	upgradeIcon(1)=Texture2D'ZedternalReborn_Resource.Skills.UI_Skill_Fortitude_Deluxe'
 

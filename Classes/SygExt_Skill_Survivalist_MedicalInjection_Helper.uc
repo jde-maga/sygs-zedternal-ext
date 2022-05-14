@@ -28,7 +28,6 @@ function StartTimer(bool bDeluxe)
 function Timer()
 {
     local float HalfHealth;
-    HalfHealth = Player.HealthMax / 2;
 
 	if (Player == None || Player.Health <= 0)
 	{
@@ -36,6 +35,7 @@ function Timer()
 		return;
 	}
 
+    HalfHealth = Player.HealthMax / 2;
 	if (Player.Health < HalfHealth) {
 		Player.HealDamage(Regen, KFPlayerController(Player.Controller), class'KFDT_Healing', False, False);
     
