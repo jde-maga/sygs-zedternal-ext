@@ -37,7 +37,7 @@ function Timer()
 
     HalfHealth = Player.HealthMax / 2;
 	if (Player.Health < HalfHealth) {
-		Player.HealDamage(Regen, KFPlayerController(Player.Controller), class'KFDT_Healing', False, False);
+		Player.HealDamage(Regen, KFPlayerController(Player.Controller), class'KFDT_Healing');
     
         SetTimer(MinRegenDelay[DeluxeLvl] + Player.Health * (MaxRegenDelay[DeluxeLvl] - MinRegenDelay[DeluxeLvl]) / HalfHealth, False);
     } else {

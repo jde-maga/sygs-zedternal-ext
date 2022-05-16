@@ -16,6 +16,8 @@ static function bool IsUpgradeCompatible( class<KFWeapon> KFW )
 		return true;
 	else if (class<KFWeap_Rifle_FrostShotgunAxe>(KFW) != none)
 		return true;
+	else if (class<KFWeap_Shotgun_HRG_Kaboomstick>(KFW) != none)
+		return true;
 
 	return false;
 }

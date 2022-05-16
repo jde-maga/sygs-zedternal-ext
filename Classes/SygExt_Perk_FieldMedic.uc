@@ -1,6 +1,7 @@
 Class SygExt_Perk_FieldMedic extends WMUpgrade_Perk;
 
-var float FieldMedicWeaponsDamage, Health, HealRate, BileResist;
+var float FieldMedicWeaponsDamage,  HealRate, BileResist;
+var int Health;
 
 static function ModifyDamageGiven(out int InDamage, int DefaultDamage, int upgLevel, optional Actor DamageCauser, optional KFPawn_Monster MyKFPM, optional KFPlayerController DamageInstigator, optional class<KFDamageType> DamageType, optional int HitZoneIdx, optional KFWeapon MyKFW)
 {
@@ -10,7 +11,7 @@ static function ModifyDamageGiven(out int InDamage, int DefaultDamage, int upgLe
 
 static function ModifyHealth(out int InHealth, int DefaultHealth, int upgLevel)
 {
-	InHealth += Round(float(DefaultHealth) * FMin(default.Health * upgLevel, 0.5f));
+	InHealth += default.Health * upgLevel;
 }
 
 static simulated function ModifyHealerRechargeTime(out float InRechargeTime, float DefaultRechargeTime, int upgLevel)
@@ -27,7 +28,7 @@ static function ModifyDamageTaken(out int InDamage, int DefaultDamage, int upgLe
 defaultproperties
 {
 	FieldMedicWeaponsDamage=0.10f
-	Health=0.05f
+	Health=5
 	HealRate=0.2f
     BileResist=0.05f
 

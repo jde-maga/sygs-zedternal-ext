@@ -2,7 +2,6 @@ class SygExt_Skill_Sharpshooter_CurtainCall extends WMUpgrade_Skill;
 
 var array<float> Damage;
 
-
 static simulated function InitiateWeapon(int upgLevel, KFWeapon KFW, KFPawn OwnerPawn)
 {
 	local SygExt_Skill_Sharpshooter_CurtainCall_Helper UPG;

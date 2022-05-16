@@ -1,16 +1,16 @@
 class SygExt_Skill_Berserker_Dreadnaught extends WMUpgrade_Skill;
 
-var array<float> Health;
+var array<int> Health;
 
 static function ModifyHealth(out int InHealth, int DefaultHealth, int upgLevel)
 {
-	InHealth += Round(float(DefaultHealth) * default.Health[upgLevel - 1]);
+	InHealth += default.Health[upgLevel -1];
 }
 
 defaultproperties
 {
-	Health(0)=0.25f
-	Health(1)=0.6f
+	Health(0)=25
+	Health(1)=60
 
 	upgradeName="Dreadnaught"
 	upgradeDescription(0)="> <font color=\"#66cc00\">+25</font> <font color=\"#ff3399\">health points</font>"

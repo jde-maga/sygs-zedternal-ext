@@ -1,10 +1,10 @@
 class SygExt_Skill_Support_Fortitude extends WMUpgrade_Skill;
 
-var array<float> Health;
+var array<int> Health;
 
 static function ModifyHealth(out int InHealth, int DefaultHealth, int upgLevel)
 {
-	InHealth += Round(float(DefaultHealth) * default.Health[upgLevel - 1]);
+	InHealth += default.Health[upgLevel - 1];
 }
 
 static simulated function InitiateWeapon(int upgLevel, KFWeapon KFW, KFPawn OwnerPawn)
@@ -44,8 +44,8 @@ static simulated function DeleteHelperClass(Pawn OwnerPawn)
 
 defaultproperties
 {
-	Health(0)=0.1f
-	Health(1)=0.25f
+	Health(0)=10
+	Health(1)=25
 
 	upgradeName="Fortitude"
     upgradeDescription(0)="> <font color=\"#66cc00\">+10</font> <font color=\"#ff3399\">health points</font>\n> <font color=\"#66cc00\">+0.5</font> <font color=\"#ff3399\">health points per second</font>"
