@@ -31,7 +31,7 @@ function int UpdateAmmo(int AmmoIn, KFWeapon MyKFWeapon)
 	// cap ammo
 	Ammo = Min(AmmoIn, MyKFWeapon.MagazineCapacity[0] - MyKFWeapon.AmmoCount[0]);
 
-	if (MyKFWeapon.MagazineCapacity[0] > 1 && Ammo > 0 && MyKFWeapon.SpareAmmoCount[0] >= Ammo && (bDeluxe || AmmoCounter < MyKFWeapon.MagazineCapacity[0]))
+	if (MyKFWeapon.MagazineCapacity[0] >= 1 && Ammo > 0 && MyKFWeapon.SpareAmmoCount[0] >= Ammo && (bDeluxe || AmmoCounter < MyKFWeapon.MagazineCapacity[0]))
 	{
 		MyKFWeapon.AmmoCount[0] += Ammo;
 		MyKFWeapon.SpareAmmoCount[0] -= Ammo;
